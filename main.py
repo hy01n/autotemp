@@ -9,7 +9,8 @@ class Temperature:
         VALUE_MIN = 0.0
         VALUE_MAX = 37.5
 
-        value = input('>>> Input your temperature (\'C): ')
+        #value = input('>>> Input your temperature (\'C): ')
+        value = 36.5
         value = float(value)
         if value < VALUE_MIN or value >= VALUE_MAX:
             raise Exception(f'Invalid value: {value}')
